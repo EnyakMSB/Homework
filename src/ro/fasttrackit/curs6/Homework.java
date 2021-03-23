@@ -66,14 +66,14 @@ public class Homework {
 
     public static int[] greatherThanValue(int[] sirNumereIntregi, int valoare) {
         System.out.println(" ");
-        // create space for the potential values greater than 'v'
+        // create space for the potential values greater than 'valoare'
         int[] potentials = new int[sirNumereIntregi.length];
         // an 'insertion point' in to the potentials array.
         int ip = 0;
         for (int sir : sirNumereIntregi) {
             // for each value in the input array....
             if (sir > valoare) {
-                // if it is greater than 'v', add it to the potentials
+                // if it is greater than 'valoare', add it to the potentials
                 // and increment the ip insertion point.
                 potentials[ip++] = sir;
             }
